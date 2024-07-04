@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkbox.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/adigiana-ultra" rel="stylesheet">
+    <title>Monte seu açaí</title>
+</head>
+<body>
+    <section>
+        <div class="background-section">
+            <img src="background.jpg" alt="background">
+        </div>
+    </section>
+    
+    <!-- checkbox.html -->
+<div class="imagem-ingrediente">
+    <img id="imagem-selecionada" src="" alt="Imagem do Ingrediente Selecionado" style="display:none;">
+</div>
+<div class="organic-shape">
+    <a href="index.html"><img src="botao.png" alt="Imagem da forma orgânica" style="width: 100%; height: 100%; border-radius: 50%;"></a>
+      Voltar ao início
+</div>
+<div class="ingredientes">
+    <h2>Seleção de Ingredientes</h2>
+    <label class="ingrediente"><span>Banana</span><input type="checkbox" value="Banana" data-img="img/banana.jpg"></label><br>
+    <label class="ingrediente"><span>Morango</span><input type="checkbox" value="Morango" data-img="img/morango.jpg"></label><br>
+    <label class="ingrediente"><span>Granola</span><input type="checkbox" value="Granola" data-img="img/granola.jpg"></label><br>
+    <label class="ingrediente"><span>Mel</span><input type="checkbox" value="Mel" data-img="img/mel.jpg"></label><br>
+    <label class="ingrediente"><span>Leite em Pó</span><input type="checkbox" value="Leite em Pó" data-img="img/leiteempo.jpg"></label><br>
+    <label class="ingrediente"><span>Leite Condensado</span><input type="checkbox" value="Leite Condensado" data-img="img/leitecondensado.jpg"></label><br>
+    <label class="ingrediente"><span>Kiwi</span><input type="checkbox" value="Kiwi" data-img="img/kiwi.jpg"></label><br>
+    <label class="ingrediente"><span>Manga</span><input type="checkbox" value="Manga" data-img="img/manga.jpg"></label><br>
+    <label class="ingrediente"><span>Abacaxi</span><input type="checkbox" value="Abacaxi" data-img="img/abacaxi.jpg"></label><br>
+    <label class="ingrediente"><span>Nutella</span><input type="checkbox" value="Nutella" data-img="img/nutella.jpg"></label><br>
+    <h2>Tamanhos de Copos e Cumbucas</h2>
+    <label class="copo">Copo de suco: Mais largo e com maior capacidade (300 mL), ideal para servir com gelo.<input type="radio" name="escolha" value="copo"></label>
+    <br>
+    <label class="copo">Taça Balloon Snifter: Informalmente chamada de “taça para conhaque”.<input type="radio" name="escolha" value="cumbuca"></label><br>
+    <button id="mostrar-selecao">Mostrar Seleção</button>
+    <div id="resultado"></div>
+</div>
+
+
+<script src="checkbox.js"></script>
+</body>
+</html>
